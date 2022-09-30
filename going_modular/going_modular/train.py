@@ -15,8 +15,8 @@ HIDDEN_UNITS = 10
 LEARNING_RATE = 0.001
 
 # Setup directories
-train_dir = "data/pizza_steak_sushi/train"
-test_dir = "data/pizza_steak_sushi/test"
+train_dir = "data/hamburger_waffles_risotto/train"
+test_dir = "data/hamburger_waffles_risotto/test"
 
 # Setup target device
 device = "cuda" if torch.cuda.is_available() else "cpu"
